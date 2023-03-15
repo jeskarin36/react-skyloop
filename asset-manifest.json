@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-skyloop/static/css/main.b2349b27.css",
+    "main.js": "/react-skyloop/static/js/main.8aef4157.js",
+    "static/media/fa-solid-900.ttf": "/react-skyloop/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/sadasdsadasdkaf.jpg": "/react-skyloop/static/media/sadasdsadasdkaf.2660111fa26b03bba935.jpg",
+    "static/media/fa-brands-400.ttf": "/react-skyloop/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/react-skyloop/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/photo-1551498624-3712f8e41930.avif": "/react-skyloop/static/media/photo-1551498624-3712f8e41930.c328793aed4170165f0c.avif",
+    "static/media/photo-1611945440540-98c417ddabd3.avif": "/react-skyloop/static/media/photo-1611945440540-98c417ddabd3.5c6750e8b6c4371848f4.avif",
+    "static/media/jpg": "/react-skyloop/static/media/7ccf7c397be68bd4df0fde4a49bec560.1cbee3adc1969f851580.jpg",
+    "static/media/fa-brands-400.woff2": "/react-skyloop/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/react-skyloop/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/photo-1523381294911-8d3cead13475.avif": "/react-skyloop/static/media/photo-1523381294911-8d3cead13475.55b6b53461a5ec97f465.avif",
+    "static/media/Stocksy_comp_3851777.jpg": "/react-skyloop/static/media/Stocksy_comp_3851777.524a6375192a9a86bd07.jpg",
+    "static/media/fa-regular-400.woff2": "/react-skyloop/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/fa-v4compatibility.ttf": "/react-skyloop/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/react-skyloop/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/react-skyloop/index.html",
+    "main.b2349b27.css.map": "/react-skyloop/static/css/main.b2349b27.css.map",
+    "main.8aef4157.js.map": "/react-skyloop/static/js/main.8aef4157.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2349b27.css",
+    "static/js/main.8aef4157.js"
+  ]
+}
