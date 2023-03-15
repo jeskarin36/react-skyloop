@@ -1,0 +1,329 @@
+.App__header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/5123c29e4a1986d5add84bfcbb417a19.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.App__header-contenedor{
+    width: 100%;
+    height: 80%;
+
+}
+
+.App__header-contenedor-letf{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.App__header-contenedor-letf img{
+    width: 100%;
+    height: 90%;
+}
+.App__header-contenedor-letf div{
+    position: relative;
+    display: flex;
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App__header-contenedor-letf div h3{
+    position: absolute;
+    font-family: var(--font-museo);
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 61px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.App__header-contenedor-right{
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    gap: 1em;
+    padding-right: 10%;
+}
+
+.App__header-contenedor-right img{
+    width: 45%;
+    height: 60%;
+}
+
+.App__header-contenedor-right button{
+    font-family: var(--font-nuno);
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: rgb(220, 122, 111);
+    width: 45%;
+    height: 4em;
+    border: none;
+}
+
+
+
+
+.App__navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App__nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 23%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.App__nav li a{
+    font-family: var(--font-nuno);
+    font-weight: 600;
+    font-size: 14px;
+    list-style: 21px;
+    color: rgb(43, 43, 43);
+}
+
+
+.App__navbar-logo{
+    width: 15%;
+    height: 100%;
+    font-family: var(--font-museo);
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 42px;
+    color: rgb(43, 43, 43);
+    justify-content: flex-start;
+}
+
+
+.App__navbar-redes{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 20%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.App__navbar-redes li a{
+    color: rgb(43, 43, 43);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gpt3__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+    padding-right: 2em;
+  }
+  
+  .gpt3__navbar-menu svg{
+    cursor: pointer;
+  }
+  
+  .gpt3__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem ;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5 rgba(0, 0, 0, 0.2);
+  }
+  
+  .gpt3__navbar-menu_container p{
+    margin: 1rem 0;
+  }
+  
+  .gpt3__navbar-menu_container-links-sign{
+    display: none;
+  }
+
+
+  
+  @media screen and (max-width:1440px) {
+    .App__header-contenedor-letf h3{
+        position: absolute;
+        font-family: var(--font-museo);
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 61px;
+        color: white;
+        left: 6em;
+    }
+}
+
+
+@media screen and (max-width:1220px) {
+    .App__nav{
+        width: 30%;
+    }
+    .App__header-contenedor-right img{
+        width: 65%;
+    }
+
+    .App__header-contenedor-right button{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .App__header{
+        height: 85vh;
+    }
+    .App__nav,
+    .App__navbar-redes{
+        display: none;
+      }
+    
+      .App__navbar-boton button{
+        display: none;
+        
+      }
+    
+      .gpt3__navbar-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+      }
+      
+
+     .App__navbar{
+       justify-content: center;
+       position: relative;
+     }
+      
+
+     .App__header-contenedor-right img{
+        width: 70%;
+    }
+
+    .App__header-contenedor-right button{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:806px) {
+    .App__header-contenedor-right{
+        justify-content: flex-end;
+    }
+
+    .App__header-contenedor-letf div{
+        width: 85%;
+    }
+
+    .App__header-contenedor-right img{
+        width: 80%;
+    }
+
+    .App__header-contenedor-right button{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:583px) {
+    .App__header{
+        height: 100vh;
+    }
+    .App__header-contenedor{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .App__header-contenedor-letf{
+        height: 80%;
+        width: 80%;
+    }
+
+    .App__header-contenedor-letf div{
+        width: 95%;
+    }
+    .App__header-contenedor-right{
+        width: 50%;
+        height: 60%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding-right: 5%;
+    }
+
+    .App__header-contenedor-right img{
+        width: 100%;
+    }
+
+    .App__header-contenedor-right button{
+        width: 100%;
+    }
+
+    .App__navbar-logo{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+}
+
+@media screen and (max-width:398px) {
+    .App__header-contenedor-letf div h3{
+        font-size: 37px;
+        line-height: 52px;
+    }
+    .App__header{
+        height: 90vh;
+    }
+
+    .App__header-contenedor-right{
+        width: 65%;
+    }
+
+    .App__header-contenedor-letf{
+        width: 90%;
+    }
+  
+}
+

@@ -1,0 +1,17 @@
+.App__contenedor{
+    width: 100%;
+    min-height: 75vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1338px){
+   .App__contenedor{
+     padding: 3em 0;
+     gap: 1em;
+   }
+}
+
+
+
+

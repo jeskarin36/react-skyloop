@@ -1,0 +1,105 @@
+.App__novedades-card{
+    width: 31%;
+    height: 36em;
+    flex-direction: column;
+    color: white;
+}
+
+.App__novedades-card .t{
+    font-family: var(--font-nuno);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+   
+}
+
+.App__novedades-card .p{
+    font-family: var(--font-nuno);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    
+}
+
+
+.App__novedades-card > div{
+    width: 100%;
+    height:80%;
+    margin-bottom: 1em;
+    position: relative;
+   
+}
+
+.App__novedades-card > div > img{
+    width: 100%;
+    height:100%;
+}
+
+.App__novedades-card > div > button{
+    position: absolute;
+    bottom: 0;
+    width: 9em;
+    height: 3.5em;
+    font-family: var(--font-nuno);
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0,0.9);
+    border: none;
+    margin-bottom: 1em;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.App__novedades-card:hover  div  button{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.cuadro > div{
+    width: 5em;
+    height: 1.8em;
+    background: black;
+    position: absolute;
+    color: white;
+    left: 0;
+    top: 0;
+    
+}
+
+
+
+@media screen and (max-width:1063px){
+
+    .App__novedades-card{
+        height: 34em;     
+    }
+}
+
+@media screen and (max-width:979px){
+    .App__novedades-card{
+        height: 30em;  
+    }
+}
+
+@media screen and (max-width:813px){
+    .App__novedades-card{
+        height: 25em;  
+    }
+}
+
+@media screen and (max-width:757px){
+    .App__novedades-card{
+        width: 18em;
+        height: 27em;  
+    }
+}
+
+@media screen and (max-width:361px){
+    .App__novedades-card{
+        width: 15em;
+        height: 24em;  
+    }
+  
+}

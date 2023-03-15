@@ -1,0 +1,79 @@
+.App__novedades{
+    width: 100%;
+    min-height: 120vh;
+    background: rgb(234, 185, 60);
+    flex-direction: column;
+    gap: 2.5em;
+    flex-wrap: wrap;
+}
+
+.App__novedades h3{
+    font-family: var(--font-museo);
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 88px;
+    color: white;
+}
+
+.App__novedades > button{
+    width: 15em;
+    height: 4.5em;
+    font-family: var(--font-nuno);
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: rgb(220, 122, 111);
+    border: none;
+}
+
+
+.App__novedades-contenedor{
+    width: 95%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:757px){
+    .App__novedades-contenedor{
+        justify-content: center;
+        gap: 1em;
+    }
+    .App__novedades{
+        padding: 3em 0;
+    }
+}
+
+@media screen and (max-width:461px){
+
+    .App__novedades h3{
+        font-size: 62px;
+        line-height: 78px;
+    }
+}
+
+@media screen and (max-width:381px){
+
+    .App__novedades h3{
+        font-size: 52px;
+        line-height: 68px;
+    }
+}
+
+@media screen and (max-width:361px){
+    .App__novedades > button{
+        width: 12em;
+        height: 4em;
+    }
+}
+
+@media screen and (max-width:323px){
+
+    .App__novedades h3{
+        font-size: 42px;
+        line-height: 58px;
+    }
+
+    
+}

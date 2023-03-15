@@ -1,0 +1,121 @@
+.App__form{
+    width:98%;
+    height: 62vh;
+    background-image: url("../../assets/photo-1523381294911-8d3cead13475.avif");
+    background-size: 100% 120%;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+
+.App__form div{
+    width: 40%;
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+}
+
+.App__form div h3{
+    font-family: var(--font-museo);
+    font-size: 37px;
+    line-height: 51px;
+    font-weight: 800;
+}
+
+.App__form div p{
+    font-family: var(--font-nuno);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.App__form div form{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    gap: 1%;
+}
+
+.App__form div form input[type="email"]{
+    padding: 1em 2em;
+    width: 38%;
+    outline: none;
+}
+.App__form div form input[type="submit"]{
+    padding: 1em 2em;
+    font-family: var(--font-nuno);
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: rgb(220, 122, 111);
+    border: none;
+}
+
+
+@media screen and (max-width:1149px){
+    .App__form div{
+        width: 60%;
+      
+    }
+}
+
+
+@media screen and (max-width:757px){
+    .App__form div{
+        width: 80%;
+      
+    }
+}
+
+@media screen and (max-width:467px){
+    .App__form div{
+    width: 90%;
+     }
+
+    .App__form div form{
+      
+       flex-direction: column;
+       gap: .5em;
+    }
+
+    .App__form div form input[type="email"]{
+        padding: 1.2em 2em;
+        width: 55%;
+    }
+    .App__form div form input[type="submit"]{
+        padding: .8em 2em;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:407px){
+    .App__form div h3{
+        font-size: 32px;
+        line-height: 40px;
+    
+    }
+    .App__form div{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:337px){
+    .App__form div h3{
+        font-size: 28px;
+        line-height:32px;
+    
+    }
+
+}
+
+@media screen and (max-width:303px){
+    .App__form div h3{
+        font-size: 25px;
+        line-height:28px;
+    
+    }
+
+}
+

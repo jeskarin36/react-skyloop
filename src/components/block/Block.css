@@ -1,0 +1,80 @@
+.App__Block{
+    width: 100%;
+    height: 80vh;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.App__Block-letf{
+    width: 48%;
+    height: 90%;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.App__Block-letf img{
+    width: 100%;
+    height: 130%;
+}
+
+.App__Block-letf button,
+.App__Block-right button{
+    width: 15em;
+    height: 4.5em;
+    position: absolute;
+    bottom: 0;
+    font-family: var(--font-nuno);
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: rgb(220, 122, 111);
+    border: none;
+}
+
+.App__Block-right{
+    width: 48%;
+    height: 90%;
+    position: relative;
+}
+
+.App__Block-right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:927px){
+    .App__Block{
+        height: 60vh;
+    }
+
+    .App__Block-letf button,
+    .App__Block-right button{
+        width: 12em;
+        height: 3.5em;
+    }
+}
+
+@media screen and (max-width:761px){
+    .App__Block{
+        height: 50vh;
+    }
+
+   
+}
+
+@media screen and (max-width:593px){
+    .App__Block{
+        height: 40vh;
+    }
+    .App__Block-letf button,
+    .App__Block-right button{
+        width:100%;
+    }
+   
+}
+
+
+
+
+

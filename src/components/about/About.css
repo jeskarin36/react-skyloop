@@ -1,0 +1,124 @@
+.App__about{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.App__about-letf{
+    width: 37%;
+    height: 100%;
+}
+
+.App__about-letf img{
+    width: 82%;
+    height: 80%;
+}
+
+
+
+
+.App__about-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.App__about-right h3{
+    font-family: var(--font-museo);
+    font-size: 47px;
+    line-height: 61px;
+    font-weight: 800;
+}
+
+.App__about-right > div{
+    width: 50%;
+    font-family: var(--font-nuno);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+
+.App__about-right button{
+    font-family: var(--font-nuno);
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: rgb(220, 122, 111);
+    width: 35%;
+    height: 4em;
+    border: none;
+}
+
+
+@media screen and (max-width:1144px) {
+    .App__about-right h3{
+        font-size: 40px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width:844px) {
+    .App__about-right > div{
+        width: 70%;
+    }
+
+    .App__about-right button{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:717px) {
+    .App__about{
+        flex-direction: column;
+        height: 100vh;
+      
+    }
+
+    .App__about-letf{
+        align-self: flex-start;
+        width: 50%;
+        height: 40%;
+        float: left;
+    
+    }
+    .App__about-right{
+        align-self: flex-end;
+        height: 70%;
+        width: 80%;
+        align-items: flex-start;
+        float: right;
+    }
+    .App__about-right > div{
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:481px) {
+    .App__about-right h3{
+        font-size: 37px;
+        line-height: 44px;
+        margin-right: 1em;
+    }
+    .App__about-letf{
+        width: 60%;
+    }
+}
+
+
+
+@media screen and (max-width:337px) {
+  
+
+    .App__about-right button{
+        width: 70%;
+        height: 4em;
+    }
+}
